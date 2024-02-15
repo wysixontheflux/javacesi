@@ -19,9 +19,14 @@ public class GestionEvenement {
     }
 
     public double calculerRemuneration() {
-        double remuneration = 0;
+        double remuneration = this.evenement.getBudget();
+
+        for (double cout : tarificationEtapes.values()) {
+            remuneration -= cout;
+        }
 
         return remuneration;
     }
+
 }
 

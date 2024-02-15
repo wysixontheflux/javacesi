@@ -12,5 +12,9 @@ public abstract class Evenement {
     }
 
     public abstract void planifier();
+
+    public double getBudget() {
+        return budget;
+    }
 }
 

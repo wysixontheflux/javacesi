@@ -7,6 +7,6 @@ public class SalonCommercial extends Evenement {
 
     @Override
     public void planifier() {
-        // Implémentation spécifique pour un salon commercial
+
     }
 }
